@@ -1,0 +1,59 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.container2 {
+    width: 400px;
+    height: 600px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.container3 {
+    width: 400px;
+    height: 600px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.container4 {
+    width: 400px;
+    height: 600px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.container5 {
+    width: 400px;
+    height: 600px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.bananaImage {
+    width: 100%;
+    height: auto;
+}
+
+.grapefruitImage {
+    width: 100%;
+    height: auto;
+}
+
+.dragonfruitImage {
+    width: 100%;
+    height: auto;
+}
+
+.avacadoImage {
+    width: 100%;
+    height: auto;
+}
+
+.mangoImage {
+    width: 100%;
+    height: auto;
+}
