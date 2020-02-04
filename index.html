@@ -7,30 +7,52 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+
     <title>fruities</title>
 </head>
 <body>
+<body onmousedown="clickColor()" onmouseup="releaseColor()" onmousemove="mouseMove()">
+    <div class="cursor" id="cursor"></div>
+
 <div class="grid">
     <div class="container" id="container">
-        <!-- <input type="image" src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2309&q=80" /> -->
-        <img href= "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2309&q=80" onclick="banana()">
-    <button onclick="banana()">banana</button> 
+        <img src="./assets/bananaforweb.png" onclick="banana()" width="400px" height="auto">
+        <div class="overlay">
+        <div class="bananabread">
+            <h3>Mom's Banana Bread</h3>
+            <p>1 3/4 c flour <br>
+            3/4 c sugar <br>
+            1/2 tsp salt <br>
+            3/4 tsp baking soda <br>
+            1 3/4 tsp cream of tartar <br>
+            2 eggs, beaten <br>
+            1/2 c oil <br>
+            2 mashed bananas <br>
+            Mini chocolate chips <br>
+            Mix dry ingredients, add eggs, oil and banana. Stir well. Mix in chocolate chips (I eyeball it). Put in greased loaf pan. Bake at 350 for 50-60 min or until toothpick in center comes out clean.</p>
+        </div>
+    </div>
     </div>  
 
     <div class="container2" id="container2">
-    <button onclick="grapefruit()">grapefruit</button>
+    <img src="./assets/grapefruit.png" onclick="grapefruit()" width="400px" height="auto">
     </div>
 
     <div class="container3" id="container3">
-    <button onclick="dragonfruit()">dragonfruit</button>
+    <input type="image" src="./assets/dragonfruit.png" onclick="dragonfruit()" width="400px" height="auto">
     </div>
 
     <div class="container4" id="container4">
-    <button onclick="avacado()">avacado</button>
+    <input type="image" src="./assets/avocado.png" onclick="avocado()" width="400px" height="auto">
     </div>
 
     <div class="container5" id="container5">
-    <button onclick="mango()">mango</button>
+    <input type="image" src="./assets/mango.png" onclick="mango()" width="400px" height="auto">
+    </div>
+
+  <div class="container6" id="container6">
+        <button onclick="myFunction()">yes please</button>
+        <button>no, thank you</button>
     </div>
 </div>
 </body>
